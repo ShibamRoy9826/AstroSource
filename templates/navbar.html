@@ -1,0 +1,48 @@
+<nav> 
+  <div>
+    <a href="#">Home</a>
+    <a href="#">AstroSource</a>
+    <a href="#">Project</a>
+    <a href="#">Team</a>
+  </div>
+</nav>
+
+<style>
+nav {
+  width: 100vw;
+  position: relative;
+  top: 0;
+  display: flex;
+  padding: 1rem;
+  padding-right: 3rem;
+  justify-content: end;
+
+  background-color: #11111b;
+}
+
+nav div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  column-gap: 2em;
+}
+
+nav div a {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #cdd6f4;
+  text-transform: uppercase;
+  transition: transform 0.2s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+nav a:hover {
+    transform: scale(1.1); 
+    color: #a6adc8;
+}
+
+nav a:active {
+    transform: scale(0.95);
+}
+</style>
